@@ -10,3 +10,5 @@ curl -fsSL https://sing-box.app/install.sh | sh
 
 streamlit run app.py
 
+apt-get update
+apt-get install -y iptables
